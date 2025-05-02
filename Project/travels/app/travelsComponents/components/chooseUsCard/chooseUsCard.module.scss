@@ -1,0 +1,45 @@
+.card {
+    background: #e0dede;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    padding: 2rem;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #0000008C;
+  
+    &:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
+    }
+  }
+  
+  .iconWrapper {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 1rem;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #e0e0e0, #f9f9f9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+  }
+  
+  .title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #222;
+  }
+  
+  .description {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.4;
+  }
+  

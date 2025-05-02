@@ -1,0 +1,20 @@
+.offersWrapper {
+    display: flex;
+    justify-content: space-between; /* or use `gap` instead */
+    gap: 15px; /* optional, for spacing between cards */
+    padding: 30px;
+    
+  }
+
+  .offerMainWrapper{
+    background-color: rgb(232, 229, 229);
+  }
+
+  .header{
+    display: flex;
+    margin-left: 50px;
+    font-size: 25px;
+    padding-top: 25px;
+  }
+
+  

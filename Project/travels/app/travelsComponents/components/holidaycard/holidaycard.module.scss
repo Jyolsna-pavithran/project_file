@@ -1,0 +1,25 @@
+.card {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: auto;
+  }
+  
+  .image {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+  }
+  
+  .overlayText {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+  

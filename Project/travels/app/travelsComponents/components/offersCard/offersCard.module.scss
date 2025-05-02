@@ -1,0 +1,67 @@
+.cardWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    padding:20px 16px;
+    border-radius: 8px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    
+  }
+  
+  .imageContainer img {
+    width: 280px;
+    height: 180px;
+    border-radius: 4px;
+  }
+  
+  .textContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 16px;
+    text-align: left;
+
+  }
+  
+
+  .contactButton {
+    background-color: #026DB8;
+    color: #fff;
+    border: none;
+    padding:0px 20px;
+    width: 130px;
+    height: 30px;
+    font-weight: bold;
+    border-radius: 35px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background-color 0.2s ease;
+    margin-top: 10px;
+  
+    &:hover {
+      background-color: #026DB8;
+    }
+  }
+
+
+
+  .textContainer {
+    h6:nth-child(1) {
+      color:#7d7d7d;
+      font-size: 12px;
+      margin-top: 10px;
+    }
+  
+    h6:nth-child(2) {
+      color: #000;
+    }
+  
+    h6:nth-child(3) {
+      color: #7d7d7d;
+      font-size: 12px;
+    }
+  }
+  
+
+  
